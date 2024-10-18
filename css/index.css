@@ -1,0 +1,25 @@
+:root {
+    /* colors */
+    --blue: #1a256a;
+    --white: #FFFFFF;
+}
+
+.task-item{
+    margin-top: 2px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: var(--blue);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 16px;
+}
+
+.task-is-done {
+    color: var(--white);
+}
+
+.container {
+    margin-top: 40px;
+}
